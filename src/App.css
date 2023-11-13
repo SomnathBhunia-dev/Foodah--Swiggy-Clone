@@ -1,0 +1,40 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.container-snap::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.container-snap {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+/* Hide the default scrollbar */
+/* Note: These styles only work in WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9400d3;
+}
+
+#toggle-switch:checked + .block {
+    background-color: rgb(0, 128, 0); /* Change color when checked */
+  }
+
+  #toggle-switch:checked + .block + .dot {
+    left: calc(100% - 1.2rem); /* Move dot to the right when checked */
+  }
