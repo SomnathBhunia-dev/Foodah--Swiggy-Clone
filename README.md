@@ -1,70 +1,47 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Foodah--Swiggy-Clone
 
-## Available Scripts
+Daily News App is a simple and fast app that lets you get the latest headlines from various sources in one place. You can choose from different categories, such as world, business, sports, entertainment, Technology etc., and browse through the news articles from reputable media outlets.
 
-In the project directory, you can run:
+## Challenge
+- User can choose from different categories, such as world, business, sports, entertainment, etc., and browse through the news articles from reputable media outlets.
+- The app is easy to use and has a minimalist design that focuses on the content.
+- User Can Serch Any Keyword and this app provide keyword related Top News.
+- Whether you want to stay informed, learn something new, or just kill some time, Daily News App is the app for you.
+## My Built Process
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Hi everyone! I am a React.Js learner and this is my 2nd project at learning stage. I just practicing the way how can developer build small/big project using React.js , JavaScript, Html & CSS framework.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In this project, I decided to create a News app where User can choose  different categories, such as world, business, sports, entertainment, Technology etc.. I used the Bing News Search API to fetch the weather data and React-Router to navigate between different pages. I also used some custom hooks and components to make the code more reusable and maintainable.
 
-### `npm test`
+This project was a great way to learn more about React.js and how to use APIs, hooks, and routing. I enjoyed working on this project and I think it turned out pretty well. You can check out the live demo here: 👉👉👊 [Daily News App](https://reactjs.org/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If anyone have any suggestion or correction plz feel free to give a pull request . We can improve this app as much as beautiful and workable in future . Thank you for reading and happy coding!
+### Built with
 
-### `npm run build`
+- Semantic HTML5 markup
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+- [Bootstrap](https://getbootstrap.com/) - For styles
+- [Bing News Search Api](https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1/) - For Fetch All Data from [RapidApi](https://rapidapi.com/) - Api Provider ( For Free )
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Useful resources
+- ChatGpt : I use ChatGpt for optimize my code in various way, its help me a lot in not doing code repeat...
+## Authors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Somnath](https://github.com/SomnathBhunia-dev)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/SomnathBhunia-dev)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/somnath-bhunia-web-developer)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![App Screenshot](https://user-images.githubusercontent.com/114075731/228539097-ce6bf818-aa1f-4c44-9b20-47cd81d11f73.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Dark Mode ](https://user-images.githubusercontent.com/114075731/228539416-c94cf239-d454-49ef-86ab-ecb34c6cc245.png)
+# Foodah--Swiggy-Clone
