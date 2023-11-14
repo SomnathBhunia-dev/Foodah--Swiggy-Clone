@@ -1,30 +1,65 @@
+# Foodah - Swiggy Clone
+[Live Site Here 👈👈](https://foodah-swiggy-clone-app-by-react.netlify.app/)
 
-# Foodah--Swiggy-Clone
+Foodah is a React application that replicates the functionality of the Swiggy food delivery app. This project aims to provide users with a familiar and user-friendly interface for ordering food online.
 
-Daily News App is a simple and fast app that lets you get the latest headlines from various sources in one place. You can choose from different categories, such as world, business, sports, entertainment, Technology etc., and browse through the news articles from reputable media outlets.
+## Features
 
-## Challenge
-- User can choose from different categories, such as world, business, sports, entertainment, etc., and browse through the news articles from reputable media outlets.
-- The app is easy to use and has a minimalist design that focuses on the content.
-- User Can Serch Any Keyword and this app provide keyword related Top News.
-- Whether you want to stay informed, learn something new, or just kill some time, Daily News App is the app for you.
-## My Built Process
+- **Browse Restaurants:**
+  - Explore a wide range of restaurants available in your area.
+  - View restaurant details, menu, and customer reviews.
 
+- **Order Food:**
+  - Add items to the cart and place orders seamlessly.
+  - Specify delivery instructions and track the order in real-time.
 
-Hi everyone! I am a React.Js learner and this is my 2nd project at learning stage. I just practicing the way how can developer build small/big project using React.js , JavaScript, Html & CSS framework.
+- **Filters and Sort :**
+  - Use search functionality to find specific cuisines or dishes.
+  - Apply filters based on preferences such as vegetarian, non-vegetarian, etc.
 
-In this project, I decided to create a News app where User can choose  different categories, such as world, business, sports, entertainment, Technology etc.. I used the Bing News Search API to fetch the weather data and React-Router to navigate between different pages. I also used some custom hooks and components to make the code more reusable and maintainable.
+- **Payment Integration:**
+  - Secure payment options for a seamless checkout experience.
+  - Integration with Razorpay or any other payment gateway.
 
-This project was a great way to learn more about React.js and how to use APIs, hooks, and routing. I enjoyed working on this project and I think it turned out pretty well. You can check out the live demo here: 👉👉👊 [Daily News App](https://reactjs.org/)
+- **Responsive Design:**
+  - The application is designed to be responsive and accessible across various devices.
 
+## Tech Stack
+
+- React
+- React Router
+- Axios for HTTP requests
+- Razorpay (or other payment gateway)
+- Tailwind CSS
+
+## Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/foodah.git
+   cd foodah
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables:**
+   Create a `.env` file in the root of the project and add necessary environment variables, including API keys.
+
+4. **Run the Application:**
+   ```bash
+   npm start
+   ```
+
+5. **Open in Browser:**
+   Visit `http://localhost:3000` in your browser to view the application.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 If anyone have any suggestion or correction plz feel free to give a pull request . We can improve this app as much as beautiful and workable in future . Thank you for reading and happy coding!
-### Built with
-
-- Semantic HTML5 markup
-- Flexbox
-- [React](https://reactjs.org/) - JS library
-- [Bootstrap](https://getbootstrap.com/) - For styles
-- [Bing News Search Api](https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1/) - For Fetch All Data from [RapidApi](https://rapidapi.com/) - Api Provider ( For Free )
 
 ## Useful resources
 - ChatGpt : I use ChatGpt for optimize my code in various way, its help me a lot in not doing code repeat...
@@ -37,14 +72,3 @@ If anyone have any suggestion or correction plz feel free to give a pull request
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/SomnathBhunia-dev)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/somnath-bhunia-web-developer)
 
-
-## Screenshots
-
-![App Screenshot](https://user-images.githubusercontent.com/114075731/228539097-ce6bf818-aa1f-4c44-9b20-47cd81d11f73.png)
-
-
-![Dark Mode ](https://user-images.githubusercontent.com/114075731/228539416-c94cf239-d454-49ef-86ab-ecb34c6cc245.png)
-<<<<<<< HEAD
-# Foodah--Swiggy-Clone
-=======
->>>>>>> master
