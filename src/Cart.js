@@ -20,11 +20,7 @@ const Cart = () => {
           <div className="mx-auto max-w-5xl justify-center px-6 md:flex md:space-x-6 xl:px-0">
             <div className="rounded-lg md:w-2/3">
               <Address />
-<<<<<<< HEAD
-              <div className='w-fit m-auto'>
-=======
               <div className='w-fit m-auto hidden md:block'>
->>>>>>> master
                 <button className="mt-6 w-full rounded-md cursor-pointer bg-blue-500 py-1.5 px-4 font-medium text-blue-50 hover:bg-blue-600" onClick={() => makePayment()}>Make Payment</button>
               </div>
             </div>
@@ -87,12 +83,9 @@ const Cart = () => {
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
-=======
             <div className='w-fit m-auto block md:hidden'>
                 <button className="mt-6 w-full rounded-md cursor-pointer bg-blue-500 py-1.5 px-4 font-medium text-blue-50 hover:bg-blue-600" onClick={() => makePayment()}>Make Payment</button>
               </div>
->>>>>>> master
           </div>
         </>}
         {statusDial && <StatusDial status={statusDial} statusType={statusDialMsg} />}
