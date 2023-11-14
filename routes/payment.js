@@ -32,34 +32,3 @@ router.post("/orders", async (req, res) => {
         res.status(500).send(error);
     }
 });
-<<<<<<< HEAD
-
-
-// const Kid = 'rzp_test_X9N3RMOTxwkz8l';
-// const SecretKey = 'p7bDWob6BS3gj4I378YsFDpR';
-
-// export default async function handler(req, res) {
-//   if (req.method === "POST") {
-//     // Initialize razorpay object
-
-//     // Create an order -> generate the OrderID -> Send it to the Front-end
-//     // Also, check the amount and currency on the backend (Security measure)
-
-
-//     try {
-//       const response = await instance.orders.create(options);
-//       res.status(200).json({
-//         id: response.id,
-//         currency: response.currency,
-//         amount: response.amount
-//       });
-//     } catch (err) {
-//       console.log(err);
-//       res.status(400).json(err);
-//     }
-//   } else {
-//     // Handle any other HTTP method
-//   }
-// }
-=======
->>>>>>> master
