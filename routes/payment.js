@@ -32,6 +32,7 @@ router.post("/orders", async (req, res) => {
         res.status(500).send(error);
     }
 });
+<<<<<<< HEAD
 
 
 // const Kid = 'rzp_test_X9N3RMOTxwkz8l';
@@ -60,3 +61,5 @@ router.post("/orders", async (req, res) => {
 //     // Handle any other HTTP method
 //   }
 // }
+=======
+>>>>>>> master

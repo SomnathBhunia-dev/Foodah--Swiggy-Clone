@@ -27,7 +27,11 @@ const Navbar = () => {
               left-8 top-4 dark:border-gray-900">{Cart.CartItem.length}</div>}
               <img src={cartLogo} alt="Cart" className='w-12' />
             </Link>
+<<<<<<< HEAD
             <div className="group-hover:block absolute right-0 top-20 min-w-[18rem] min-h-[10rem] md:min-h-[10rem] md:min-w-[22rem] md:right-4 bg-purple-300 border pt-10 md:p-10 z-10 rounded-lg mx-4 transition duration-1000 ease-in-out transform hidden shadow-lg">
+=======
+            <div className="lg:group-hover:block absolute right-0 top-20 min-w-[18rem] min-h-[10rem] md:min-h-[10rem] md:min-w-[22rem] md:right-4 bg-purple-300 border pt-10 md:p-10 z-10 rounded-lg mx-4 transition duration-1000 ease-in-out transform hidden shadow-lg">
+>>>>>>> master
               {Cart?.CartItem.length !== 0 ?
                 <div>
                   <div className='flex mb-4'>

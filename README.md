@@ -44,4 +44,7 @@ If anyone have any suggestion or correction plz feel free to give a pull request
 
 
 ![Dark Mode ](https://user-images.githubusercontent.com/114075731/228539416-c94cf239-d454-49ef-86ab-ecb34c6cc245.png)
+<<<<<<< HEAD
 # Foodah--Swiggy-Clone
+=======
+>>>>>>> master
