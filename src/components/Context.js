@@ -69,7 +69,7 @@ const Context = ({ children }) => {
 
     const fetchFoodList = async () => {
         dispatch({ type: "LOADING_START" })
-        const response = await axios.get("http://localhost:5000/api")
+        const response = await axios.get("/.netlify/functions/homepage")
         dispatch({ type: "SET_FOOD", payload: response.data })
         dispatch({ type: "LOADING_END" })
     }
@@ -80,7 +80,8 @@ const Context = ({ children }) => {
 
     const fetchResturant = async (id) => {
         dispatch({ type: "LOADING_START" })
-        const response = await axios.get(`http://localhost:5000/api/restaurants/${id}`)
+        // const response = await axios.get(`http://localhost:5000/api/restaurants/${id}`)
+        const response = await axios.get(`/.netlify/functions/Resturent/${id}`)
         dispatch({ type: "SET_RESTURENT", payload: response.data.data })
         dispatch({ type: "LOADING_END" })
     }
@@ -236,7 +237,8 @@ const Context = ({ children }) => {
             return;
         }
         let orderAmount = parseInt(state.Payment.Total);
-        const data = await fetch("http://localhost:5000/payment/orders", {
+        // const data = await fetch("http://localhost:5000/payment/orders", {
+        const data = await fetch("/.netlify/functions/payment", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
