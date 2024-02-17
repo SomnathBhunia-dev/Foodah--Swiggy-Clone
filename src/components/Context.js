@@ -71,6 +71,7 @@ const Context = ({ children }) => {
         dispatch({ type: "LOADING_START" })
         const response = await axios.get("/.netlify/functions/homepage")
         dispatch({ type: "SET_FOOD", payload: response.data })
+        dispatch({ type: "SET_TOP_DISH", payload: response.data })
         dispatch({ type: "LOADING_END" })
     }
 

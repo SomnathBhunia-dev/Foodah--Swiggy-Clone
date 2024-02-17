@@ -12,7 +12,15 @@ export const Reducer = (state, action) => {
                 Loading: false
             }
         case "SET_FOOD":
-            const inyourMind = action.payload.data.cards[1]?.card.card.imageGridCards?.info
+            return {
+                ...state,
+                Data: action.payload,
+                MainMenu: action.payload.data.cards[5].card.card.gridElements?.infoWithStyle.restaurants,
+                Filtered: action.payload.data.cards[5].card.card.gridElements?.infoWithStyle.restaurants,
+                TopChain: action.payload.data.cards[2].card.card.gridElements?.infoWithStyle.restaurants,
+            }
+        case "SET_TOP_DISH":
+            const inyourMind = state.Data.data.cards[1]?.card.card.imageGridCards?.info
             const allItem = [...state.MainMenu, ...state.TopChain].reduce((acc, obj) => {
                 obj.info.cuisines.forEach(str => {
                     if (!acc.includes(str)) {
@@ -25,10 +33,6 @@ export const Reducer = (state, action) => {
             // const notYourMind = inyourMind?.filter((i) => !allItem.includes(i.action.text))
             return {
                 ...state,
-                Data: action.payload,
-                MainMenu: action.payload.data.cards[5].card.card.gridElements?.infoWithStyle.restaurants,
-                Filtered: action.payload.data.cards[5].card.card.gridElements?.infoWithStyle.restaurants,
-                TopChain: action.payload.data.cards[2].card.card.gridElements?.infoWithStyle.restaurants,
                 TopDish: yourMind
             }
         case "SET_RESTURENT":
