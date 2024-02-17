@@ -1,25 +1,33 @@
-const axios = require("axios");
-require('dotenv').config();
+const axios = require('axios');
 
-const customHeaders = {
-    'User-Agent': process.env.DESKTOP_USER_AGENT,
-};
-
-exports.handler = async function (event, context) {
+exports.handler = async (event, context) => {
     try {
+        const data = {
+            collection: 'Data',
+            database: 'Foodah',
+            dataSource: 'Foodah',
+        };
 
-        const response = await axios.get(process.env.HOMEPAGE_URL, {
-            headers: customHeaders,
-        });
-        const modifiedData = response.data;
+        const config = {
+            headers: {
+                'Content-Type': 'application/json',
+                'Access-Control-Request-Headers': '*',
+                'api-key': process.env.HOMEPAGE_API_KEY,
+            }
+        };
+
+        const response = await axios.post('https://ap-south-1.aws.data.mongodb-api.com/app/data-lvecc/endpoint/data/v1/action/findOne', data, config);
+        const responseData = response.data;
+                
         return {
             statusCode: 200,
-            body: JSON.stringify(modifiedData),
+            body: JSON.stringify(responseData.document)
         };
     } catch (error) {
+        console.log(error);
         return {
             statusCode: 500,
-            body: JSON.stringify({ error: 'Internal Server Error' }),
+            body: JSON.stringify({ message: 'Internal Server Error' })
         };
     }
 };
